@@ -24,7 +24,7 @@ export default function HomePage() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-indigo-950 dark:text-indigo-100">
-                  Learn, Play, Evolve with <span className="text-indigo-600 dark:text-indigo-400">Kreons</span>
+                  Learn, Play, Evolve with <span className="text-indigo-600 dark:text-indigo-400">KreonLearn</span>
                 </h1>
                 <p className="max-w-[600px] text-gray-700 dark:text-gray-300 md:text-xl">
                   Embark on an educational adventure where knowledge transforms into powerful Kreons. Complete
@@ -61,7 +61,7 @@ export default function HomePage() {
               >
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-indigo-500 opacity-20 blur-3xl"></div>
                 <div className="spline-container relative h-full w-full">
-                <Spline scene="https://prod.spline.design/BnW39U1skgxJr-jL/scene.splinecode" />
+                <Spline scene="https://prod.spline.design/DhIgJarnZCJ9Bnjw/scene.splinecode" />
                 </div>
               </motion.div>
             </div>

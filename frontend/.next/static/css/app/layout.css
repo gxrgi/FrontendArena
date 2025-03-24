@@ -1008,8 +1008,8 @@ video {
 .h-svh {
   height: 100svh;
 }
-.h-screen {
-  height: 100vh;
+.h-\[400px\] {
+  height: 400px;
 }
 .max-h-96 {
   max-height: 24rem;
@@ -1116,8 +1116,8 @@ video {
 .w-px {
   width: 1px;
 }
-.w-screen {
-  width: 100vw;
+.w-\[400px\] {
+  width: 400px;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1649,11 +1649,23 @@ video {
 .bg-white\/80 {
   background-color: rgb(255 255 255 / 0.8);
 }
+.bg-\[url\(\'\.\.\/public\/tech_bg\.jpg\'\)\] {
+  background-image: url(/_next/static/media/tech_bg.c918cf8c.jpg);
+}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+.bg-\[url\(\'\.\.\/public\/bio2\.jpg\'\)\] {
+  background-image: url(/_next/static/media/bio2.3c754702.jpg);
+}
+.bg-\[url\(\'\.\.\/public\/logic\.jpg\'\)\] {
+  background-image: url(/_next/static/media/logic.d26096e6.jpg);
+}
+.bg-\[url\(\'\.\.\/public\/creative\.jpg\'\)\] {
+  background-image: url(/_next/static/media/creative.c641918d.jpg);
 }
 .from-amber-200 {
   --tw-gradient-from: #fde68a var(--tw-gradient-from-position);
@@ -3799,12 +3811,20 @@ video {
     height: 400px;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
   .sm\:w-\[200px\] {
     width: 200px;
   }
 
   .sm\:w-\[400px\] {
     width: 400px;
+  }
+
+  .sm\:w-\[500px\] {
+    width: 500px;
   }
 
   .sm\:max-w-sm {
@@ -3899,6 +3919,10 @@ video {
     height: 500px;
   }
 
+  .md\:h-\[600px\] {
+    height: 600px;
+  }
+
   .md\:w-\[250px\] {
     width: 250px;
   }
@@ -3913,6 +3937,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-\[600px\] {
+    width: 600px;
   }
 
   .md\:max-w-\[420px\] {
@@ -4021,6 +4049,14 @@ video {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .lg\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .lg\:w-\[700px\] {
+    width: 700px;
   }
 
   .lg\:grid-cols-3 {

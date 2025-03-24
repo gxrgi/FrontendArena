@@ -38,7 +38,7 @@ export default function ModulesPage() {
           </TabsList>
 
           <TabsContent value="tech" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 bg-[url('../public/tech_bg.jpg')]">
               <ModuleCard
                 title="Introduction to Coding"
                 description="Learn the basics of programming with interactive challenges."
@@ -99,7 +99,7 @@ export default function ModulesPage() {
           </TabsContent>
 
           <TabsContent value="nature" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 bg-[url('../public/bio2.jpg')]">
               <ModuleCard
                 title="Biology Basics"
                 description="Explore the fundamentals of living organisms."
@@ -137,11 +137,29 @@ export default function ModulesPage() {
                 icon={<Flask className="h-5 w-5" />}
                 locked={true}
               />
+              <ModuleCard
+                title="Anatomy"
+                description="Study the human body."
+                level="Beginner"
+                progress={90}
+                completed={false}
+                kreonType="Nature"
+                icon={<Flask className="h-5 w-5" />}
+              />
+              <ModuleCard
+                title="Physiology"
+                description="Explore the fundamentals of Physiology."
+                level="Beginner"
+                progress={90}
+                completed={false}
+                kreonType="Nature"
+                icon={<Flask className="h-5 w-5" />}
+              />
             </div>
           </TabsContent>
 
           <TabsContent value="logic" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 bg-[url('../public/logic.jpg')]">
               <ModuleCard
                 title="Basic Mathematics"
                 description="Master fundamental math concepts through interactive problems."
@@ -182,7 +200,7 @@ export default function ModulesPage() {
           </TabsContent>
 
           <TabsContent value="creative" className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 bg-[url('../public/creative.jpg')]">
               <ModuleCard
                 title="Creative Writing"
                 description="Develop your storytelling and writing skills."
@@ -211,6 +229,36 @@ export default function ModulesPage() {
                 icon={<PenTool className="h-5 w-5" />}
                 locked={true}
               />
+              <ModuleCard
+                title="Content Writing"
+                description="Develop your storytelling and writing skills."
+                level="Beginner"
+                progress={50}
+                completed={false}
+                kreonType="Creative"
+                icon={<PenTool className="h-5 w-5" />}
+              />
+              <ModuleCard
+                title="Colour Theory"
+                description="Understand the building blocks of music."
+                level="Intermediate"
+                progress={0}
+                completed={false}
+                kreonType="Creative"
+                icon={<PenTool className="h-5 w-5" />}
+                locked={true}
+              />
+              <ModuleCard
+                title="FaSoLaTi"
+                description="Understand the building blocks of music."
+                level="Intermediate"
+                progress={0}
+                completed={false}
+                kreonType="Creative"
+                icon={<PenTool className="h-5 w-5" />}
+                locked={true}
+              />
+              
             </div>
           </TabsContent>
         </Tabs>
